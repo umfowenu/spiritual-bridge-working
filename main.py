@@ -55,7 +55,7 @@ def bridge():
             }
         
         # Send to Make.com webhook - REPLACE WITH YOUR ACTUAL WEBHOOK URL
-        make_webhook_url = "YOUR_MAKE_WEBHOOK_URL"
+        make_webhook_url = "https://hook.us2.make.com/19btlfde41s85fs5osbpcv5qyurijdap"
         
         response = requests.post(make_webhook_url, json=webhook_data, timeout=10)
         
