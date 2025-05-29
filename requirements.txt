@@ -1,0 +1,13 @@
+openai==0.28.1
+requests==2.31.0
+python-dotenv==1.0.0
+flask==3.0.0
+schedule==1.2.0
+notion-client==2.2.1
+# EMAIL PROCESSOR REQUIREMENTS
+# ===========================
+# 
+# DEVELOPMENT HISTORY & VERSION CHOICES:
+# 
+# openai==0.28.1 - COMPATIBILITY SOLUTION
+# - Newer versions (1.x+) caused "prox
